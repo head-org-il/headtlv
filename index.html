@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+
+  <!-- Social Preview (v2, cache-busted) -->
+  <meta charset="utf-8">
+  <title>הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי</title>
+  <meta name="description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך. תוכנית שיקומית-מקצועית במדיה דיגיטלית.">
+  <link rel="image_src" href="https://headtlv.netlify.app/card-hed-v2.jpg?ts=20250909a">
+  <meta property="og:locale" content="he_IL">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="הד — בית מדיה שיקומי">
+  <meta property="og:url" content="https://headtlv.netlify.app/?ts=20250909a">
+  <meta property="og:title" content="הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי">
+  <meta property="og:description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך.">
+  <meta property="og:image" content="https://headtlv.netlify.app/card-hed-v2.jpg?ts=20250909a">
+  <meta property="og:image:secure_url" content="https://headtlv.netlify.app/card-hed-v2.jpg?ts=20250909a">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="לוגו הד — בית מדיה שיקומי">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי">
+  <meta name="twitter:description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך.">
+  <meta name="twitter:image" content="https://headtlv.netlify.app/card-hed-v2.jpg?ts=20250909a">
+  <meta name="robots" content="max-image-preview:large">
+
+
+  
+  <meta charset="utf-8">
+  <title>הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי</title>
+  <meta name="description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך. תוכנית שיקומית-מקצועית במדיה דיגיטלית."/>
+  <meta property="og:locale" content="he_IL"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="הד — בית מדיה שיקומי"/>
+  <meta property="og:title" content="הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי"/>
+  <meta property="og:description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך. תוכנית שיקומית-מקצועית במדיה דיגיטלית."/>
+  <meta property="og:image" content="https://headtlv.netlify.app/social-card.jpg"/>
+  <meta property="og:image" content="social-card.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="הקול שמחזיר אותך הביתה | הד — בית מדיה שיקומי"/>
+  <meta name="twitter:description" content="כאן מתחילים בהקשבה — ובונים דרך בקול שלך."/>
+  <meta name="twitter:image" content="social-card.jpg"/>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>הד — בית מדיה שיקומי</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --ink:#0B1220;
+      --paper:#FFFFFF;
+      --muted:#6B7280;
+      --brand-blue:#2E4D9B;
+      --brand-red:#B1222E;
+      --brand-amber:#F5A623;
+      --brand-brown:#6E5338;
+      --line:#E5E7EB;
+      --soft:#F7F7FB;
+    }
+    *{box-sizing:border-box} html,body{height:100%} body{font-family:'Heebo',system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+    .container{max-width:1200px;margin:0 auto}
+    .btn-primary{background:var(--brand-blue);color:#fff} .btn-primary:hover{filter:brightness(1.08)}
+    .btn-muted{background:#F3F4F6;border:1px solid #E5E7EB;color:#111827} .btn-muted:hover{background:#EEEFF3}
+    .tag{display:inline-block;padding:.4rem .8rem;border:1px solid #E5E7EB;border-radius:999px;background:#FFF;color:#374151;font-weight:700}
+    .card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+    .lift{transition:transform .25s ease, box-shadow .25s ease} .lift:hover{transform:translateY(-6px);box-shadow:0 18px 38px rgba(0,0,0,.12)}
+    .section-title{display:inline-block;position:relative;padding-bottom:10px}
+    .section-title:after{content:'';position:absolute;right:0;bottom:0;width:120px;height:6px;background:var(--brand-amber);border-radius:3px}
+    .pill{padding:.2rem .6rem;border-radius:999px;background:#FFF6E5;border:1px solid #FDE3B5;color:#8B5E00;font-weight:700}
+    .hero{background:var(--soft);border-bottom:1px solid var(--line)}
+    .hero-bullets li::marker{color:var(--brand-blue);font-size:1.1em}
+    .quote{border-right:6px solid var(--brand-amber);padding-right:1rem;background:#FFFCF5}
+    a:focus, button:focus, input:focus, select:focus, textarea:focus{outline:3px solid #A7C0FF; outline-offset:2px}
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .step-num{min-width:40px;height:40px;border-radius:999px;background:var(--brand-blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900}
+    .badge-blue{background:#E8EEFF;color:#1E3A8A;border:1px solid #C7D2FE;padding:.25rem .6rem;border-radius:999px;font-weight:700}
+    .badge-amber{background:#FFF6E5;color:#8B5E00;border:1px solid #FDE3B5;padding:.25rem .6rem;border-radius:999px;font-weight:700}
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="w-full sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200">
+    <div class="container px-6 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo_head.png" alt="הד — בית מדיה שיקומי" class="w-12 h-12 object-contain rounded-md" />
+        <div>
+          <div class="text-xl font-extrabold">הד</div>
+          <div class="text-sm text-gray-500">בית מדיה שיקומי</div>
+        </div>
+      </div>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#home" class="text-gray-700 hover:text-black">בית</a>
+        <a href="#memorial" class="text-gray-700 hover:text-black">לזכר דור</a>
+        <a href="#why" class="text-gray-700 hover:text-black">למה זה אחרת</a>
+        <a href="#team" class="text-gray-700 hover:text-black">מי אנחנו</a>
+        <a href="#audience" class="text-gray-700 hover:text-black">זה בשבילך אם…</a>
+        <a href="#apply-process" class="text-gray-700 hover:text-black">תהליך הרשמה</a>
+        <a href="#registration" class="text-gray-700 hover:text-black">טופס הרשמה</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://www.head.org.il" target="_blank" class="hidden md:inline text-gray-700 hover:text-black">head.org.il</a>
+        <a href="#registration" class="btn-primary px-5 py-2 rounded-full font-semibold">הרשמה</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero py-16 md:py-20">
+    <div class="container px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="text-right">
+        <span class="pill">הקול שלך קודם</span>
+        <h1 class="text-5xl md:text-6xl font-black leading-tight mt-4 mb-4">הד — מתחילים בהקשבה, מהדהדים את הקול שלך</h1>
+        <div class="inline-flex items-center gap-3 mt-1">
+          <span class="w-16 h-1 rounded-full" style="background:var(--brand-amber)"></span>
+          <span class="text-lg text-gray-700">כאן מתחילים בהקשבה — ובונים דרך בקול שלך</span>
+        </div>
+        <p class="text-lg md:text-xl text-gray-700 mb-6 max-w-xl">הקול האישי הוא הכלי לשיקום, לשליטה ולאופק מקצועי. אצלנו מוצאים את הקול שלך ומוציאים אותו אל העולם — בסביבה בטוחה ובקצב אישי — כדי שתצא/י עם תיק עבודות, ביטחון וקשרים אמיתיים.</p>
+        <ul class="hero-bullets list-disc pr-5 text-gray-800 space-y-2 mb-8">
+          <li><strong>עושים</strong> — מקליטים, מצלמים, כותבים ומפרסמים</li>
+          <li><strong>מעבדים</strong> — ליווי אישי וקבוצתי, חדר שקט, זכות לעצור תמיד</li>
+          <li><strong>משתלבים</strong> — פרילנס/השמה וקשרים בתעשייה</li>
+        </ul>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#apply-process" class="btn-primary px-7 py-4 rounded-full font-bold text-center">🚀 איך נרשמים — צעד‑צעד</a>
+          <a href="#registration" class="btn-muted px-7 py-4 rounded-full font-bold text-center">לטופס הרשמה</a>
+        </div>
+      </div>
+      <div>
+        <div class="card p-8 lift">
+          <div class="quote rounded-xl p-5 mb-4">
+            <div class="text-lg"><strong>הד — שומעים. יוצרים. נשמעים.</strong></div>
+          </div>
+          <img src="assets/logo_head.png" alt="לוגו הד" class="w-full max-w-md mx-auto object-contain" />
+          <div class="mt-6 grid grid-cols-3 gap-4 text-center">
+            <div>
+              <div class="text-3xl font-black" style="color:var(--brand-amber)">100%</div>
+              <div class="text-gray-600">מסדרים שכר לימוד ומקבלים החזר (כפוף לאישור אגף השיקום)</div>
+            </div>
+            <div>
+              <div class="text-3xl font-black" style="color:var(--brand-blue)">3</div>
+              <div class="text-gray-600">צירי תהליך</div>
+            </div>
+            <div>
+              <div class="text-3xl font-black" style="color:var(--brand-red)">48</div>
+              <div class="text-gray-600">ש׳ — חוזרים אליך אחרי הרשמה</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section class="py-8 border-t border-b" style="background:#FAFAFD">
+    <div class="container px-6">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_mitchabrim.jpg" alt="מתחברים" class="h-12 mx-auto object-contain" /></div>
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_rehab.jpg" alt="אגף השיקום" class="h-12 mx-auto object-contain" /></div>
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_tau.jpg" alt="אוניברסיטת תל אביב" class="h-12 mx-auto object-contain" /></div>
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_extra.png" alt="אקסטרא סטודנט" class="h-12 mx-auto object-contain" /></div>
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_union.png" alt="אגודת הסטודנטים" class="h-12 mx-auto object-contain" /></div>
+        <div class="p-3 bg-white rounded-xl border text-center lift"><img src="assets/partner_diamonds.jpeg" alt="פורום יהלומי הקרב" class="h-12 mx-auto object-contain" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMORIAL (Expanded) -->
+  <section id="memorial" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="card p-8 lift">
+        <div class="flex flex-col gap-6">
+          <div>
+            <h2 class="section-title text-3xl md:text-4xl font-black mb-3">לזכר דור חנן שפיר הי״ד</h2>
+            <p class="text-gray-700 text-lg">אנחנו מקדישים את הבית הזה לזכרו של <strong>דור חנן שפיר הי״ד</strong> — איש רדיו ויוצר, לב גדול ואוזן קשובה. דור נשא את צלקות השירות וניסה להפוך אותן לקול שמחבר בין אנשים. הוא עמד להצטרף לצוותנו, ונרצח ב־7 באוקטובר. מכאן אנו ממשיכים את דרכו: להקשיב באמת, לכבד קצב אישי ואת הזכות לעצור, ולהפוך זיכרון ליצירה — וכאב להדהוד שיש בו חיים.</p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="p-5 rounded-xl border">
+              <div class="badge-amber">ערך ראשון</div>
+              <h3 class="font-extrabold text-lg mt-2 mb-1">כבוד לקול האנושי</h3>
+              <p class="text-gray-700">כל מפגש מתחיל בהקשבה. יש קצב אישי וזכות לעצור תמיד.</p>
+            </div>
+            <div class="p-5 rounded-xl border">
+              <div class="badge-amber">ערך שני</div>
+              <h3 class="font-extrabold text-lg mt-2 mb-1">יצירה שמחזירה שליטה</h3>
+              <p class="text-gray-700">פודקאסט, וידאו וכתיבה — תוצרים אמיתיים בידיים שלך.</p>
+            </div>
+            <div class="p-5 rounded-xl border">
+              <div class="badge-amber">ערך שלישי</div>
+              <h3 class="font-extrabold text-lg mt-2 mb-1">קהילה שמחזיקה</h3>
+              <p class="text-gray-700">ליווי אישי וקבוצתי, חדר שקט, וכללים ברורים ליצירה בטוחה.</p>
+            </div>
+          </div>
+          <div class="p-5 rounded-xl" style="background:#FFFCF5;border:1px solid #FDE3B5">
+            <strong>הבטחה שלנו:</strong> במה שמקשיבה באמת, בגובה העיניים, מתוך חמלה ועוצמה. 
+            <span class="badge-blue ml-2">זכרו של דור מדריך אותנו</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY DIFFERENT -->
+  <section id="why" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="text-center mb-12">
+        <h2 class="section-title text-4xl md:text-5xl font-black">למה אנחנו מחזירים קול — ולא רק מלמדים</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-3">יצירה חיה — לא תיאוריה</h3>
+          <p class="text-gray-700">כל מה שנוצר יוצא לקהל, עם קרדיט ותיק עבודות אמיתי.</p>
+          <ul class="list-disc pr-6 mt-3 text-gray-700 space-y-2">
+            <li>פרויקטים בזמן אמת</li>
+            <li>שיתופי פעולה עם מוסדות וגורמי מדיה</li>
+            <li>ליווי עד תוצר סופי על שמך</li>
+          </ul>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-3">הקשבה לפני הכול</h3>
+          <p class="text-gray-700">כלים פשוטים שמחזירים שליטה, קצב אישי וזכות לעצור תמיד.</p>
+          <ul class="list-disc pr-6 mt-3 text-gray-700 space-y-2">
+            <li>חדר שקט ותיאום ציפיות ברור</li>
+            <li>שיחה אישית קצרה אחרי כל עשייה</li>
+            <li>קהילה קטנה ובטוחה</li>
+          </ul>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-3">שילוב בתעסוקה</h3>
+          <p class="text-gray-700">הכשרות קצרות, מפגשי תעשייה והכנה מעשית — כדי להתקדם לתעסוקה.</p>
+          <ul class="list-disc pr-6 mt-3 text-gray-700 space-y-2">
+            <li>מפגשי אורחים מהשוק</li>
+            <li>חונכות ומשרות פרילנס</li>
+            <li>סיוע בבניית קורות חיים ותיק עבודות</li>
+          </ul>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-3">מדידה ושיפור</h3>
+          <p class="text-gray-700">יעדים אישיים, דשבורד התקדמות ורטרוספקטיבות — כדי לראות שינוי קורה.</p>
+          <ul class="list-disc pr-6 mt-3 text-gray-700 space-y-2">
+            <li>מדדי רווחה ותפקוד</li>
+            <li>ספירת תוצרים, הופעות ופרסומים</li>
+            <li>פידבק מקצועי מתמשך</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TEAM / ABOUT US -->
+  <section id="team" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="text-center mb-12">
+        <h2 class="section-title text-4xl md:text-5xl font-black">מי אנחנו — והמודל שלנו</h2>
+        <p class="text-lg text-gray-700 max-w-3xl mx-auto mt-4">
+          אנחנו צוות של רדיו, דיגיטל וכתיבה — אנשים של שטח. המודל של <strong>הד</strong> פשוט וחזק:
+          <strong>עשייה → עיבוד → השתלבות</strong>.<br/>
+          כמו ב<strong>רדיו פוקוס</strong> למדנו שמיקרופון חוצה חומות: יוצרים, מדברים אנושית ומתקדמים צעד‑צעד אל תעסוקה.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card p-7 lift">
+          <div class="text-sm font-bold mb-2" style="color:#2E4D9B">עשייה</div>
+          <h3 class="font-extrabold text-xl mb-2">סטודיו חי</h3>
+          <p class="text-gray-700">פודקאסט, אולפן וידאו וכתיבה — תוצרים אמיתיים שיוצאים לקהל, עם קרדיט ותיק עבודות.</p>
+        </div>
+        <div class="card p-7 lift">
+          <div class="text-sm font-bold mb-2" style="color:#F5A623">עיבוד</div>
+          <h3 class="font-extrabold text-xl mb-2">רגישות‑טראומה</h3>
+          <p class="text-gray-700">קצב אישי, זכות לעצור, שיחות אחד‑על‑אחד, וכללי סטודיו בטוחים.</p>
+        </div>
+        <div class="card p-7 lift">
+          <div class="text-sm font-bold mb-2" style="color:#B1222E">השתלבות</div>
+          <h3 class="font-extrabold text-xl mb-2">קשרים ותעסוקה</h3>
+          <p class="text-gray-700">מפגשי תעשייה, פרילנס/השמה, וליווי לבניית קורות חיים ותיק עבודות.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIENCE (updated) -->
+  <section id="audience" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="text-center mb-12">
+        <h2 class="section-title text-4xl md:text-5xl font-black">זה בשבילך אם חזרת מהשירות — ואת/ה עדיין שם</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-2">יש קול בפנים</h3>
+          <p class="text-gray-700">את/ה מרגיש/ה שיש סיפור — ואנחנו נעזור להוציא אותו בבטוח ובעדינות.</p>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-2">רוצים לעשות — לא רק לדבר</h3>
+          <p class="text-gray-700">פודקאסטים, וידאו, כתיבה — תוצרים אמיתיים שיוצאים לקהל.</p>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="text-xl font-extrabold mb-2">מוכר/ת מול משרד הביטחון?</h3>
+          <p class="text-gray-700">מימון מלא <strong>בכפוף לזכאות</strong> דרך אגף השיקום. לא בטוח/ה אם את/ה מוכר/ת? נסביר איך לבדוק ולמי לפנות <em>(אנחנו לא מבצעים בדיקת זכאות)</em>.</p>
+        </div>
+      </div>
+      <p class="mt-2 text-gray-700 text-center font-medium">הקול שלך חשוב. אנחנו מתחילים ממנו, תמיד.</p>
+<p class="mt-2 text-gray-600 text-center">כל המגדרים, מגיל 20+. דגש על אמון, בטיחות וקצב אישי.</p>
+    </div>
+  </section>
+
+  <!-- APPLY PROCESS (elevated) -->
+  <section id="apply-process" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="text-center mb-12">
+        <h2 class="section-title text-4xl md:text-5xl font-black">תהליך הרשמה — חשוב מאוד</h2>
+        <p class="text-lg text-gray-700 max-w-3xl mx-auto mt-3">5 שלבים ברורים. אנחנו איתך צעד‑צעד. שכר הלימוד מסודר על ידך וההחזר מתבצע לפי נהלי אגף השיקום.</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="card p-8 lift">
+          <div class="space-y-5">
+            <div class="step"><div class="step-num">1</div><div><strong>טופס קצר</strong><br/><span class="text-gray-700">ממלאים כאן למטה פרטים בסיסיים.</span></div></div>
+            <div class="step"><div class="step-num">2</div><div><strong>שיחת היכרות</strong><br/><span class="text-gray-700">אנחנו חוזרים אליך תוך <span class="badge-blue">48 שעות</span> כדי לשמוע את הקול שלך.</span></div></div>
+            <div class="step"><div class="step-num">3</div><div><strong>בדיקת זכאות</strong><br/><span class="text-gray-700">אם את/ה <u>מוכר/ת</u> באגף השיקום — נהדר. אם לא בטוח/ה, נסביר איך לבצע את הבדיקה ולמי לפנות <em>(אנחנו לא מבצעים בדיקת זכאות)</em>.</span></div></div>
+            <div class="step"><div class="step-num">4</div><div><strong>אישור והחזר</strong><br/><span class="text-gray-700">מסדרים שכר לימוד ומקבלים החזר <strong>(כפוף לאישור ונהלי אגף השיקום)</strong>.</span></div></div>
+            <div class="step"><div class="step-num">5</div><div><strong>אינטק ויציאה לדרך</strong><br/><span class="text-gray-700">פתיחת מחזור, חיבור לקבוצה ותחילת העשייה.</span></div></div>
+          </div>
+          <div class="mt-6 p-4 rounded-xl" style="background:#F9FAFB;border:1px solid #E5E7EB">
+            שאלות? כתבו לנו: <a class="underline" href="mailto:karineo@gmail.com">karineo@gmail.com</a> · אתר: <a class="underline" href="https://www.head.org.il" target="_blank">head.org.il</a>
+          </div>
+        </div>
+        <div class="card p-8 lift">
+          <h3 class="font-extrabold text-xl mb-3">מה להכין לשיחה?</h3>
+          <ul class="list-disc pr-6 text-gray-700 space-y-2">
+            <li>כמה מילים עלייך ומה מושך אותך במדיה</li>
+            <li>אם יש — מספר ת״ז לצורך בדיקת זכאות</li>
+            <li>לינקים לכל תוצר/קול/טקסט שכבר יצרת (לא חובה)</li>
+          </ul>
+          <div class="mt-6">
+            <a href="#registration" class="btn-primary px-6 py-4 rounded-xl font-black w-full inline-block text-center">מוכנים? עוברים לטופס ההרשמה</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGISTRATION (Form) -->
+  <section id="registration" class="py-20 bg-white">
+    <div class="container px-6">
+      <div class="text-center mb-12">
+        <h2 class="section-title text-4xl md:text-5xl font-black">טופס הרשמה</h2>
+        <p class="text-lg text-gray-700 max-w-3xl mx-auto">ממלאים, שולחים, ואנחנו חוזרים אליך ב‑48 שעות.</p>
+      </div>
+      <div class="card p-8 lift">
+        <div class="mb-6 p-4 rounded-xl" style="background:#FFFCF5;border:1px solid #FDE3B5">
+          <strong>שימו לב:</strong> יש שדה לטופס <strong>״מוכר/ת ע״י משרד הביטחון״</strong>. לא בטוחים? סמנו "לא" ונכוון למידע ולגורמים המתאימים. מימון מתבצע כ<em>החזר</em> לאחר סידור שכר לימוד, בהתאם לאישור ונהלי אגף השיקום.
+        </div>
+        <form id="registrationForm" class="space-y-8" autocomplete="on">
+          <input type="hidden" name="_subject" value="הרשמה חדשה – הד בית מדיה שיקומי" />
+          <input type="text" name="hp_field" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block font-black mb-2">שם פרטי *</label>
+              <input type="text" name="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" autocomplete="given-name" />
+            </div>
+            <div>
+              <label class="block font-black mb-2">שם משפחה *</label>
+              <input type="text" name="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" autocomplete="family-name" />
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block font-black mb-2">טלפון *</label>
+              <input type="tel" name="phone" required pattern="^[0-9+\-\s]{8,20}$" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" autocomplete="tel" />
+            </div>
+            <div>
+              <label class="block font-black mb-2">אימייל *</label>
+              <input type="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" autocomplete="email" />
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-6">
+            <div>
+              <label class="block font-black mb-2">גיל *</label>
+              <input type="number" name="age" required min="16" max="99" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" />
+            </div>
+            <div>
+              <label class="block font-black mb-2">אזור מגורים *</label>
+              <select name="region" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500">
+                <option value="">בחר/י...</option>
+                <option>צפון</option>
+                <option>מרכז</option>
+                <option>דרום</option>
+                <option>ירושלים</option>
+              </select>
+            </div>
+            <div>
+              <label class="block font-black mb-2">השכלה פורמלית *</label>
+              <select name="education" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500">
+                <option value="">בחר/י...</option>
+                <option>תיכון</option>
+                <option>תעודה</option>
+                <option>תואר ראשון</option>
+                <option>תואר שני</option>
+                <option>תואר שלישי</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div>
+              <label class="block font-black mb-2">מוכר/ת ע״י משרד הביטחון? *</label>
+              <select name="recognizedByMOD" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500">
+                <option value="">בחר/י...</option>
+                <option>כן</option>
+                <option>לא</option>
+              </select>
+            </div>
+            <div>
+              <label class="block font-black mb-2">כמה שנים מוכר/ת (אם רלוונטי)</label>
+              <input type="number" name="yearsRecognized" min="0" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-black mb-2">מצב נוכחי (אפשר כמה אפשרויות)</label>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <label class="flex items-center gap-3 border p-3 rounded-xl"><input type="checkbox" name="currentStatus" value="בטיפול פסיכולוגי/פסיכיאטרי"/><span>בטיפול פסיכולוגי/פסיכיאטרי</span></label>
+              <label class="flex items-center gap-3 border p-3 rounded-xl"><input type="checkbox" name="currentStatus" value="עובד/ת כיום"/><span>עובד/ת כיום</span></label>
+              <label class="flex items-center gap-3 border p-3 rounded-xl"><input type="checkbox" name="currentStatus" value="לומד/ת כיום"/><span>לומד/ת כיום</span></label>
+              <label class="flex items-center gap-3 border p-3 rounded-xl"><input type="checkbox" name="currentStatus" value="בתהליך שיקום"/><span>בתהליך שיקום</span></label>
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-black mb-2">מה מעניין אותך במדיה ומה המוטיבציה להשתתף? *</label>
+            <textarea name="motivation" required rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500" placeholder="כמה שורות בקול שלך — מה חשוב לך שנשמע?"></textarea>
+          </div>
+
+          <div>
+            <label class="block font-black mb-2">מידע נוסף (לא חובה)</label>
+            <textarea name="additionalInfo" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-4 focus:ring-blue-200 focus:border-blue-500"></textarea>
+          </div>
+
+          <button type="submit" id="submitBtn" class="btn-primary w-full py-4 rounded-xl font-black text-lg">🚀 שליחת הרשמה</button>
+        </form>
+      </div>
+      <p class="text-center text-sm text-gray-500 mt-4">שאלות? <a class="underline" href="mailto:karineo@gmail.com">karineo@gmail.com</a> · אתר: <a class="underline" href="https://www.head.org.il" target="_blank">head.org.il</a></p>
+    </div>
+  </section>
+
+  <!-- THANK YOU -->
+  <section id="thank-you" class="hidden py-16">
+    <div class="container px-6 text-center">
+      <div class="card p-10">
+        <h2 class="text-3xl md:text-4xl font-black mb-4" style="color:var(--brand-blue)">תודה רבה על ההרשמה!</h2>
+        <p class="text-lg text-gray-700 mb-2">קיבלנו את הפרטים שלך — והקול שלך הגיע אלינו.</p>
+        <p>צוות הד יצור קשר תוך <strong>48 שעות</strong>. לשאלות דחופות: <a class="underline" href="mailto:karineo@gmail.com">karineo@gmail.com</a></p>
+        <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+          <a href="#home" class="btn-primary px-6 py-3 rounded-full font-semibold">🏠 חזרה לעמוד הבית</a>
+          <a href="https://www.head.org.il" target="_blank" class="px-6 py-3 rounded-full font-semibold border border-gray-300 hover:bg-gray-50">🌐 www.head.org.il</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-gray-200 py-10">
+    <div class="container px-6 text-center">
+      <img src="assets/logo_head.png" alt="הד" class="w-14 h-14 mx-auto object-contain mb-3"/>
+      <p class="text-gray-500">© 2025 הד — בית מדיה שיקומי · <a href="https://www.head.org.il" class="underline">head.org.il</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
+      e.preventDefault();
+      const t = document.querySelector(a.getAttribute('href'));
+      if(t) t.scrollIntoView({behavior:'smooth', block:'start'});
+    }));
+
+    // AJAX + fallback
+    const form = document.getElementById('registrationForm');
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const orig = btn.innerHTML; btn.innerHTML='⏳ שולח/ת...'; btn.disabled=true;
+
+      const required = form.querySelectorAll('[required]'); let ok = true;
+      required.forEach(f=>{ if(!String(f.value||'').trim()){ ok=false; f.style.borderColor='#ef4444'; } else { f.style.borderColor='#10b981'; } });
+      if(!ok){ btn.innerHTML=orig; btn.disabled=false; alert('❌ אנא מלא/י את כל השדות הנדרשים'); return; }
+      if(form.hp_field && form.hp_field.value){ return; }
+
+      const fd = new FormData(form);
+      const statuses = fd.getAll('currentStatus');
+      const payload = {
+        _subject:'הרשמה חדשה – הד בית מדיה שיקומי', _template:'table',
+        'שם פרטי':fd.get('firstName'),'שם משפחה':fd.get('lastName'),
+        'טלפון':fd.get('phone'),'אימייל לפניה חוזרת':fd.get('email'),
+        'גיל':fd.get('age'),'אזור מגורים':fd.get('region'),'השכלה פורמלית':fd.get('education'),
+        'מוכר/ת ע\"י משרד הביטחון':fd.get('recognizedByMOD'),'שנים מוכר/ת':fd.get('yearsRecognized')||'לא רלוונטי',
+        'מצב נוכחי':statuses.length?statuses.join(', '):'לא צוין',
+        'מוטיבציה':fd.get('motivation'),'מידע נוסף':fd.get('additionalInfo')||'',
+        'נשלח ב':new Date().toLocaleString('he-IL')
+      };
+
+      async function ajaxSubmit(){
+        const r = await fetch('https://formsubmit.co/ajax/karineo@gmail.com', {
+          method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+          body:JSON.stringify(payload)
+        });
+        if(!r.ok) throw new Error('network'); const j = await r.json(); if(!j.success) throw new Error('fail');
+      }
+      function fallbackSubmit(){
+        const h=document.createElement('form'); h.action='https://formsubmit.co/karineo@gmail.com'; h.method='POST'; h.style.display='none';
+        Object.entries(payload).forEach(([k,v])=>{ if(k.startsWith('_')) return; const i=document.createElement('input'); i.type='hidden'; i.name=k; i.value=v; h.appendChild(i); });
+        const s=document.createElement('input'); s.type='hidden'; s.name='_subject'; s.value=payload._subject; h.appendChild(s);
+        const n=document.createElement('input'); n.type='hidden'; n.name='_next'; n.value=window.location.href; h.appendChild(n);
+        const c=document.createElement('input'); c.type='hidden'; c.name='_captcha'; c.value='false'; h.appendChild(c);
+        document.body.appendChild(h); h.submit();
+      }
+
+      try{ await ajaxSubmit();
+        document.getElementById('registration').style.display='none';
+        const th=document.getElementById('thank-you'); th.classList.remove('hidden'); th.scrollIntoView({behavior:'smooth'});
+      }catch(e){ fallbackSubmit(); }
+      finally{ btn.innerHTML=orig; btn.disabled=false; form.reset(); }
+    });
+  </script>
+</body>
+</html>
