@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 160" width="820" height="160">
+  <defs>
+    <style>
+      .node{fill:#2E4D9B;stroke:#0B1220;stroke-width:2;}
+      .label{fill:#FFFFFF;font-family:'Heebo',sans-serif;font-weight:700;font-size:14px;}
+      .arrow{fill:none;stroke:#F5A623;stroke-width:2;marker-end:url(#arrowhead);}
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#F5A623" />
+    </marker>
+  </defs>
+  <!-- Nodes -->
+  <circle class="node" cx="740" cy="80" r="60" />
+  <text class="label" x="740" y="80" dominant-baseline="middle" text-anchor="middle">ציר מקצועי</text>
+  <circle class="node" cx="580" cy="80" r="60" />
+  <text class="label" x="580" y="80" dominant-baseline="middle" text-anchor="middle">ציר שיקומי</text>
+  <circle class="node" cx="420" cy="80" r="60" />
+  <text class="label" x="420" y="80" dominant-baseline="middle" text-anchor="middle">ציר טיפולי</text>
+  <circle class="node" cx="260" cy="80" r="60" />
+  <text class="label" x="260" y="80" dominant-baseline="middle" text-anchor="middle">ציר תעסוקתי</text>
+  <circle class="node" cx="100" cy="75" r="60" />
+  <text class="label" text-anchor="middle">
+    <tspan x="100" y="70">ציר קהילתי</tspan>
+    <tspan x="100" y="95">חברתי</tspan>
+  </text>
+  <!-- Arrows -->
+  <line class="arrow" x1="680" y1="80" x2="640" y2="80" />
+  <line class="arrow" x1="520" y1="80" x2="480" y2="80" />
+  <line class="arrow" x1="360" y1="80" x2="320" y2="80" />
+  <line class="arrow" x1="200" y1="80" x2="160" y2="80" />
+</svg>
