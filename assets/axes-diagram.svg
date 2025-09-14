@@ -10,15 +10,15 @@
     </marker>
   </defs>
   <!-- Nodes -->
-  <circle class="node" cx="740" cy="80" r="60" />
+  <rect class="node" x="680" y="40" width="120" height="80" rx="12" ry="12" />
   <text class="label" x="740" y="80" dominant-baseline="middle" text-anchor="middle">ציר מקצועי</text>
-  <circle class="node" cx="580" cy="80" r="60" />
+  <rect class="node" x="520" y="40" width="120" height="80" rx="12" ry="12" />
   <text class="label" x="580" y="80" dominant-baseline="middle" text-anchor="middle">ציר שיקומי</text>
-  <circle class="node" cx="420" cy="80" r="60" />
+  <rect class="node" x="360" y="40" width="120" height="80" rx="12" ry="12" />
   <text class="label" x="420" y="80" dominant-baseline="middle" text-anchor="middle">ציר טיפולי</text>
-  <circle class="node" cx="260" cy="80" r="60" />
+  <rect class="node" x="200" y="40" width="120" height="80" rx="12" ry="12" />
   <text class="label" x="260" y="80" dominant-baseline="middle" text-anchor="middle">ציר תעסוקתי</text>
-  <circle class="node" cx="100" cy="75" r="60" />
+  <rect class="node" x="40" y="40" width="120" height="80" rx="12" ry="12" />
   <text class="label" text-anchor="middle">
     <tspan x="100" y="70">ציר קהילתי</tspan>
     <tspan x="100" y="95">חברתי</tspan>
